@@ -3,7 +3,7 @@ import DrawingArea from './drawingArea/DrawingArea';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" onContextMenu={ e =>  false}>
       <DrawingArea/>
     </div>
   );
